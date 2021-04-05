@@ -16,8 +16,10 @@ class FlagViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		navigationItem.title = country?.rawValue
-		
+		navigationItem.title = country?.title
+		if let imagetoLoad = country?.rawValue {
+			imageView.image = UIImage(named: imagetoLoad)
+		}
 
 	}
 

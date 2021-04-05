@@ -9,4 +9,16 @@ import Foundation
 
 enum Country: String, CaseIterable {
 	case estonia, france, germany, ireland, italy, monaco, nigeria, poland, russia, spain, uk, us
+
+	var title: String {
+		switch self {
+		case .uk:
+			return "United Kingdom"
+		case .us:
+			return "United States"
+		default:
+			return self.rawValue.capitalized
+		}
+	}
+
 }

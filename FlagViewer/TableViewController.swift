@@ -31,7 +31,7 @@ class TableViewController: UITableViewController {
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
 
-		cell.textLabel?.text = countries[indexPath.row].rawValue
+		cell.textLabel?.text = countries[indexPath.row].title
 
 		return cell
 	}
