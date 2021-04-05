@@ -16,6 +16,8 @@ class FlagViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
+		imageView.layer.borderWidth = 0.5
+		imageView.layer.borderColor = UIColor.lightGray.cgColor
 		navigationItem.title = country?.title
 		if let imagetoLoad = country?.rawValue {
 			imageView.image = UIImage(named: imagetoLoad)
