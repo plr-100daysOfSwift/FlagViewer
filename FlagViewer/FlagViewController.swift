@@ -19,21 +19,15 @@ class FlagViewController: UIViewController {
 		imageView.layer.borderWidth = 0.5
 		imageView.layer.borderColor = UIColor.lightGray.cgColor
 		navigationItem.title = country?.title
+		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareFlag))
 		if let imagetoLoad = country?.rawValue {
 			imageView.image = UIImage(named: imagetoLoad)
 		}
 
 	}
 
-
-	/*
-	// MARK: - Navigation
-
-	// In a storyboard-based application, you will often want to do a little preparation before navigation
-	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-	// Get the new view controller using segue.destination.
-	// Pass the selected object to the new view controller.
+	@objc func shareFlag() {
+		// more code here
 	}
-	*/
 
 }
