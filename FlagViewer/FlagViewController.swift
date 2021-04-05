@@ -27,7 +27,16 @@ class FlagViewController: UIViewController {
 	}
 
 	@objc func shareFlag() {
-		// more code here
+
+		guard let imageToShare = country?.rawValue, let title = country?.title, let imageData = UIImage(named: imageToShare)?.jpegData(compressionQuality: 0.8) else {
+			print("Unable to prepare sharing.")
+			return
+		}
+
+		let vc = UIActivityViewController(activityItems: [title as Any, imageData as Any], applicationActivities: [])
+		vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+		present(vc, animated: true)
+
 	}
 
 }
