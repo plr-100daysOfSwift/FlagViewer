@@ -11,10 +11,13 @@ class FlagViewController: UIViewController {
 
 	var country: Country?
 
+	@IBOutlet var imageView: UIImageView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 		navigationItem.title = country?.rawValue
+		
 
 	}
 

@@ -71,16 +71,29 @@
                     <view key="view" contentMode="scaleToFill" id="GZ2-26-sy6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="germany" translatesAutoresizingMaskIntoConstraints="NO" id="Gti-cw-Sic">
+                                <rect key="frame" x="107" y="244" width="200" height="100"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="U69-dq-HNM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gti-cw-Sic" firstAttribute="centerX" secondItem="U69-dq-HNM" secondAttribute="centerX" id="DuQ-up-Ann"/>
+                            <constraint firstItem="Gti-cw-Sic" firstAttribute="top" secondItem="U69-dq-HNM" secondAttribute="top" constant="200" id="Y1X-Ng-Es6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Gti-cw-Sic" id="wxJ-Dc-LGq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yeq-zY-Cfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488" y="73"/>
+            <point key="canvasLocation" x="1486.9565217391305" y="72.991071428571431"/>
         </scene>
     </scenes>
     <resources>
+        <image name="germany" width="200" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
