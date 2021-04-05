@@ -28,15 +28,13 @@ class TableViewController: UITableViewController {
 		return countries.count
 	}
 
-	/*
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-	let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+		let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
 
-	// Configure the cell...
+		cell.textLabel?.text = countries[indexPath.row].rawValue
 
-	return cell
+		return cell
 	}
-	*/
 
 	/*
 	// Override to support conditional editing of the table view.
