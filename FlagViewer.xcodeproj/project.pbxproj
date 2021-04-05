@@ -14,6 +14,7 @@
 		DAF50A1E261ADD3D00DB9C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF50A1C261ADD3D00DB9C24 /* LaunchScreen.storyboard */; };
 		DAF50A28261ADDA300DB9C24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF50A27261ADDA300DB9C24 /* TableViewController.swift */; };
 		DAF50A2C261ADE2E00DB9C24 /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF50A2B261ADE2E00DB9C24 /* FlagViewController.swift */; };
+		DAF50A30261ADEC500DB9C24 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF50A2F261ADEC500DB9C24 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DAF50A1F261ADD3D00DB9C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF50A27261ADDA300DB9C24 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DAF50A2B261ADE2E00DB9C24 /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
+		DAF50A2F261ADEC500DB9C24 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DAF50A13261ADD3B00DB9C24 /* SceneDelegate.swift */,
 				DAF50A27261ADDA300DB9C24 /* TableViewController.swift */,
 				DAF50A2B261ADE2E00DB9C24 /* FlagViewController.swift */,
+				DAF50A2F261ADEC500DB9C24 /* Country.swift */,
 				DAF50A17261ADD3B00DB9C24 /* Main.storyboard */,
 				DAF50A1A261ADD3D00DB9C24 /* Assets.xcassets */,
 				DAF50A1C261ADD3D00DB9C24 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				DAF50A2C261ADE2E00DB9C24 /* FlagViewController.swift in Sources */,
 				DAF50A12261ADD3B00DB9C24 /* AppDelegate.swift in Sources */,
 				DAF50A28261ADDA300DB9C24 /* TableViewController.swift in Sources */,
+				DAF50A30261ADEC500DB9C24 /* Country.swift in Sources */,
 				DAF50A14261ADD3B00DB9C24 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
